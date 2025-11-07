@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "gpio_init.c"
+        "encoder.c"
+        "motor_control.c"
+        "pid_controller.c"
+        "motion_planner.c"
+        "can_protocol.c"
+        "usb_config.c"
+        "config.c"
+        "safety.c"
+        "tmc2209_advanced.c"
+    INCLUDE_DIRS "."
+    REQUIRES 
+        driver
+        nvs_flash
+        esp_timer
+        spi_flash
+        esp_tinyusb
+)
