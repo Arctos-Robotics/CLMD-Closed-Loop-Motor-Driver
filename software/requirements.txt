@@ -1,0 +1,5 @@
+PyQt5>=5.15.0
+pyserial>=3.5
+matplotlib>=3.5.0
+numpy>=1.21.0
+esptool>=4.0.0
