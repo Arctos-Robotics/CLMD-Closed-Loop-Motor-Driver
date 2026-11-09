@@ -1,0 +1,18 @@
+--- a/components/esp_driver_i2c/i2c_master.c
++++ b/components/esp_driver_i2c/i2c_master.c
+@@ -540,7 +540,15 @@
+             // For i2c nack detected, the i2c transaction not finish.
+             // start->address->nack->stop
+             // So wait the whole transaction finishes, then quit the function.
++            // CLMD bounded NACK STOP wait: a faulty slave must not hang the task.
++            TickType_t stop_started = xTaskGetTickCount();
++            TickType_t stop_timeout = pdMS_TO_TICKS(20);
++            if (stop_timeout == 0) stop_timeout = 1;
+             while (i2c_ll_is_bus_busy(hal->dev)) {
++                if ((TickType_t)(xTaskGetTickCount() - stop_started) >= stop_timeout) {
++                    atomic_store(&i2c_master->status, I2C_STATUS_TIMEOUT);
++                    break;
++                }
+                 __asm__ __volatile__("nop");
+             }
+         }

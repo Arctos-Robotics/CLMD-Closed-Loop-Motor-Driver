@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "product": "CLMD",
+  "channel": "stable",
+  "version": "2.0.3",
+  "manifest_path": "firmware/releases/2.0.3/manifest.json",
+  "manifest_sha256": "f8bbf6c0832bb997d1780494187f5253afdab554490fb5b1dcf8c1a59e427137",
+  "release_tag": "firmware-v2.0.3",
+  "asset_name": "clmd-firmware-2.0.3.zip",
+  "asset_sha256": "5dd2e9a1f088d8b80864655c17ab199350d3e2a7a7b53abd92c5144a1c192df5",
+  "transport": "usb",
+  "chip": "ESP32-S3",
+  "flash_bytes": 2097152
+}

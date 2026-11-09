@@ -1,0 +1,15 @@
+CLMD project firmware source and binaries are licensed under GPL-3.0-or-later.
+
+Copyright (c) 2025 Closed-Loop Stepper Motor Driver Project
+Copyright (c) 2026 CLMD contributors
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The complete license is in ../LICENSE. Third-party works retain their original
+licenses/notices; see releases/2.0.3/notices/. The ESP-IDF patch is Apache-2.0.
