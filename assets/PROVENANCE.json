@@ -1,0 +1,12 @@
+{
+  "render_source": "hardware/pcb-v3/Design Files/3D_PCB.step.zip",
+  "source_sha256": "edfe0b95ab06880dd3dba24f9f2212c336d69ae05be295fbd3cc9160dbcc6049",
+  "method": "OpenCascade tessellation and Blender Cycles; original face colors; no invented components",
+  "images": [
+    "assets/board-front.png",
+    "assets/board-back.png"
+  ],
+  "mesh_parts": 755,
+  "render_source_member": "3D_PCB.step",
+  "source_sha256_description": "SHA-256 of the extracted STEP member, before compression"
+}

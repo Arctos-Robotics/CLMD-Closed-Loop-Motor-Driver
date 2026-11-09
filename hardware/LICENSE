@@ -1,0 +1,12 @@
+CLMD hardware is licensed under CERN-OHL-S-2.0.
+
+Copyright (c) 2025 Closed-Loop Stepper Motor Driver Project
+Copyright (c) 2026 CLMD contributors
+
+This applies to project-owned schematics, PCB designs, fabrication and assembly
+files, mechanical models and hardware CAD renders. Retain applicable notices.
+The complete license is in ../LICENSES/CERN-OHL-S-2.0.txt.
+
+You may use, modify, manufacture and sell covered hardware under those terms.
+Conveying covered products/designs requires the source access and reciprocity
+specified by the license. No warranty or endorsement is granted.

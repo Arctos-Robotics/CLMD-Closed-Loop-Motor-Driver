@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">CLMD — $20 Closed Loop Stepper Driver</title>
+  <desc id="desc">Dual-encoder capability, native USB flashing and CAN for affordable robotics.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091529"/><stop offset="1" stop-color="#12364b"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#72b6cc" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1280" height="420" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="20" fill="url(#grid)"/>
+  <path d="M64 62H116" stroke="#50e7c2" stroke-width="5"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="1210" y="50" text-anchor="end" fill="#50e7c2" font-size="21" font-weight="700">PCB v3 / FW 2.0.3</text>
+    <text x="64" y="174" fill="#fff" font-size="108" font-weight="700" letter-spacing="-5">CLMD</text>
+    <text x="68" y="224" fill="#b7ccd9" font-size="27">Closed Loop Stepper Driver</text>
+    <text x="68" y="290" fill="#fff" font-size="29" font-weight="700">Close the loop around your gearbox.</text>
+    <text x="68" y="355" fill="#50e7c2" font-size="18" letter-spacing="2">DUAL ENCODER / USB FLASHING / CAN</text>
+    <g transform="translate(835 77)">
+      <path d="M48 66C65 7 207 7 225 66M225 204C207 263 65 263 48 204" stroke="#50e7c2" stroke-width="3" fill="none"/>
+      <path d="M215 51L226 68L235 49M58 218L47 201L38 220" stroke="#50e7c2" stroke-width="3" fill="none"/>
+      <rect x="65" y="73" width="144" height="123" rx="17" fill="#102c41" stroke="#79a9c0" stroke-width="2"/>
+      <circle cx="137" cy="135" r="39" fill="none" stroke="#fff" stroke-width="3"/>
+      <circle cx="137" cy="135" r="12" fill="#50e7c2"/>
+      <path d="M137 96V109M137 161V174M98 135H111M163 135H176" stroke="#fff" stroke-width="3"/>
+      <text x="137" y="302" text-anchor="middle" fill="#b7ccd9" font-size="17">MEASURE · COMMAND · VERIFY</text>
+    </g>
+  </g>
+</svg>

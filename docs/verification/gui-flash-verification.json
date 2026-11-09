@@ -1,0 +1,8 @@
+{
+  "scope": "Actual Qt Firmware tab; app-only backup/write/readback; motor supply connected with motor clear; startup hold enabled; no movement command during flash",
+  "result": {
+    "version": "2.0.3",
+    "backup": "COM12-20261016T103209695616Z-full-2MB.bin",
+    "full": false
+  }
+}
